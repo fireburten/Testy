@@ -116,7 +116,7 @@ img{max-width:100%;height:auto;display:block}
 .wk-page-nav-link{color:#667eea;text-decoration:none;font-size:.9rem;font-weight:600}
 .wk-page-nav-link:hover{text-decoration:underline}
 @media(max-width:768px){.wk-sidebar{display:none}.wk-main{padding:24px 20px !important}}
-* { box-sizing: border-box; } body {margin: 0;}
+* { box-sizing: border-box; } body {margin: 0;}#i5mhr6{background:#1e293b;border-radius:8px;overflow:hidden;margin:16px 0;font-family:'SF Mono','Fira Code',Consolas,monospace;}
 
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -158,4 +158,4 @@ img{max-width:100%;height:auto;display:block}
 .wk-page-nav-link{color:#667eea;text-decoration:none;font-size:.9rem;font-weight:600}
 .wk-page-nav-link:hover{text-decoration:underline}
 @media(max-width:768px){.wk-sidebar{display:none}.wk-main{padding:24px 20px !important}}
-* { box-sizing: border-box; } body {margin: 0;}#ivfubh{font-size:1rem;font-weight:900;color:#0f172a;letter-spacing:-0.3px;text-decoration:none;}#it8nje{color:#64748b;text-decoration:none;font-size:0.875rem;font-weight:500;}#ixb9fm{color:#64748b;text-decoration:none;font-size:0.875rem;font-weight:500;}#if7nv4{color:#667eea;text-decoration:none;}#i3ebj1{display:flex;gap:6px;align-items:center;font-size:0.8rem;color:#94a3b8;margin-bottom:24px;}#iro1ng{font-size:2.2rem;font-weight:900;color:#0f172a;margin:0 0 8px;line-height:1.2;}#i9t2aq{color:#94a3b8;font-size:0.875rem;margin:0 0 32px;padding-bottom:28px;border-bottom:1px solid #e2e8f0;}
+* { box-sizing: border-box; } body {margin: 0;}
