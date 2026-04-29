@@ -213,5 +213,3 @@ footer span { color: var(--gold); }
 .term-prompt { color: var(--green); }
 .term-out { color: var(--muted); padding-left: 0.5rem; display: block; }
 .term-key { color: var(--gold); }
-
-* { box-sizing: border-box; } body {margin: 0;}
