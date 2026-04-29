@@ -2,9 +2,9 @@
 // ── TYPEWRITER ──
 const taglines = [
   "Data Science, AI and Cantankerousness",
-  "Over Engineered Solutions!",
-  "Answering the unimportant",
-  "Professionally curious. Technically proficient."
+  "Finding the data bugs nobody wants to know about",
+  "Turning messy data into loud opinions",
+  "Professionally irate. Technically proficient."
 ];
 let tlIdx = 0, tlChar = 0, tlDeleting = false;
 const taglineEl = document.getElementById('tagline-text');
