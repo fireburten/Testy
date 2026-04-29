@@ -1,0 +1,30 @@
+
+:root{
+  --jg-accent:#0e639c;
+  --jg-accent-2:#3b82f6;
+  --jg-bg:#ffffff;
+  --jg-surface:#f8fafc;
+  --jg-text:#1e293b;
+  --jg-muted:#64748b;
+  --jg-font:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --jg-radius:14px;
+}
+html,body{min-height:100%;}
+body{background:var(--jg-bg);color:var(--jg-text);font-family:var(--jg-font);}
+[data-gjs-type="wrapper"]{background:transparent;color:inherit;min-height:100vh;}
+a{color:var(--jg-accent);}
+.jg-theme-section{padding:72px 40px;background:var(--jg-surface);color:var(--jg-text);}
+.jg-theme-card{padding:28px;border:1px solid color-mix(in srgb, var(--jg-text) 10%, white);border-radius:var(--jg-radius);background:white;box-shadow:0 12px 34px rgba(15,23,42,.08);}
+.jg-theme-btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border:none;border-radius:999px;background:linear-gradient(135deg,var(--jg-accent),var(--jg-accent-2));color:white;font-weight:700;text-decoration:none;box-shadow:0 12px 24px rgba(59,130,246,.22);}
+.jg-theme-btn--ghost{background:transparent;color:var(--jg-accent);border:1px solid color-mix(in srgb, var(--jg-accent) 28%, white);box-shadow:none;}
+.jg-global-slot{position:relative;}
+.jg-global-slot::before{content:attr(data-jg-global-label);position:absolute;top:8px;right:8px;padding:3px 8px;border-radius:999px;background:rgba(15,23,42,.82);color:#fff;font:600 10px/1 var(--jg-font);letter-spacing:.08em;text-transform:uppercase;z-index:5;pointer-events:none;}
+.jg-symbol-instance{position:relative;}
+.jg-symbol-instance::before{content:attr(data-jg-symbol-label);position:absolute;top:8px;right:8px;padding:3px 8px;border-radius:999px;background:rgba(14,99,156,.92);color:#fff;font:600 10px/1 var(--jg-font);letter-spacing:.08em;text-transform:uppercase;z-index:5;pointer-events:none;}
+.jg-slot-outline{outline:1px dashed rgba(14,99,156,.45);outline-offset:2px;}
+.jg-hide-desktop{}
+@media (max-width: 992px){.jg-hide-tablet{display:none!important;}}
+@media (min-width: 993px){.jg-hide-tablet{display:initial;}}
+@media (max-width: 480px){.jg-hide-mobile{display:none!important;}}
+@media (min-width: 481px){.jg-hide-mobile{display:initial;}}
+@media (min-width: 993px){.jg-hide-desktop{display:none!important;}}
